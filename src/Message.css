@@ -15,12 +15,14 @@
   flex-shrink: 0;
   margin-right: 8px;
   display: flex;
+  cursor: pointer;
 }
 
 .Message__avatar img {
   display: block;
   width: 36px;
   height: 36px;
+  border-radius: 4px;
 }
 
 .Message__body {
@@ -46,6 +48,6 @@
 }
 
 .Message__content {
-  margin: 0 0 4px 0;
   color: var(--black);
+  margin-bottom: 4px;
 }
